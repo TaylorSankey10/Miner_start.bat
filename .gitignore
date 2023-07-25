@@ -7,3 +7,7 @@ node_modules
 # Generated files
 .psci
 output
+batch
+@echo off
+start "" "C:\path\to\bitcoin_miner_app.exe" -arguments
+exit
